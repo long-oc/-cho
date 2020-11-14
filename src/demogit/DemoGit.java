@@ -6,7 +6,8 @@
 package demogit;
 
 import java.util.Scanner;
-
+import static demogit.DemoGit.getFac;
+import static demogit.DemoGit.PI;
 /**
  *
  * @author Long
@@ -38,12 +39,12 @@ public class DemoGit {
     public static void main(String[] args) {
         Scanner sc=new Scanner(System.in);
         long expected = 120; //ta mong nhan dc 120 neu goi 5
-        long actual = (long) DemoGit.getFac(5);
+        long actual = (long) getFac(5);
         System.out.println("5! Expected: "+expected +"; Actual: "+actual);
         
         System.out.println("6! :"+(long) DemoGit.getFac(6));
-        System.out.println("0! :"+(long) DemoGit.getFac(-10));
-        
+        //System.out.println("0! :"+(long) DemoGit.getFac(-10));
+        System.out.println("PI:" + PI);
         }
     
 }
