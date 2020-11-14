@@ -6,6 +6,6 @@ Daxua 20 phút GG
 *B
 *C
 
-##Conect me via
+## Conect me via
 [FB](https://facebook.com/passmonthayhoa)
 #### copyright© Passmonthayhoa
