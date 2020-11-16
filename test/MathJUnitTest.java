@@ -27,7 +27,7 @@ public class MathJUnitTest {
     @Test(expected = IllegalArgumentException.class)
     public void getFactorial_ThrowsException_IfInvalidArgument(){
         //ngoai le khong phai value. chi co the kiem tra no
-        demogit.DemoGit.getFac(-10);
+        demogit.DemoGit.getFac(10);
     }
     
     public MathJUnitTest() {
