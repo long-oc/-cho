@@ -8,4 +8,4 @@ Daxua 20 phút GG
 
 ## Conect me via
 [FB](https://facebook.com/passmonthayhoa)
-#### copyright© Passmonthayhoa
+#### Copyright© Passmonthayhoa
