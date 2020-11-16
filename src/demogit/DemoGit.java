@@ -46,7 +46,18 @@ public class DemoGit {
         //System.out.println("0! :"+(long) DemoGit.getFac(-10));
         System.out.println("PI:" + PI);
         }
+    //muon ket luan ham minh ngon, thi ta phai nhin bang mat ket qua chay cua ham
+    //va so sanh voi ki vong
+    //lam tung truong hop chay ham - test case
+    //cach nay on, nhung mat suc
     
+    //Nang cao: dung mau sac, xanh do de ket luan
+    //ta thay xanh, ham y moi tinh huong on
+    //ta thay do, chi 1 thang mau do , coi nhu ham toang
+    //ta sai them 1 framework, unit test ten chung
+    //Junit , testing , nunit,.. la nhung framework cu the de giup test cac ham
+    //mot cach hieu qua
+    // dung no ta tich hop vao mot quy trinh
 }
     
 
