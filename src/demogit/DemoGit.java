@@ -23,18 +23,43 @@ public class DemoGit {
         //21! cuc lon , tran kieu long , chua khong noi
         // int : toi da 2 ty 1 may
         // ham tinh giai thua trong gioi han dau vao tu 0-20
+//        public static long getFac(int n){
+//            if(n<0||n>20){
+//                throw new IllegalArgumentException("n mus be between 1 to 20");
+//            }
+//            if(n==0||n==1)
+//            return 1;
+//            long resut=1;
+//            for (int i = 2; i <=n; i++) {
+//                resut*=i;
+//            }
+//            return resut;
+//        }
+        
+        // viet de quy cho hoanh trang
+        //goi lai chinh minh voi quy mo khac
+        //5! = 5*4!, tinh 4! roi tinh tiep
+        //...
+        //de quy phai co diem dung
+        // rat de bi lap vo tan neu khong co dung
+        //ket luan n!= n* (n-1)!
         public static long getFac(int n){
-            if(n<0||n>20){
-                throw new IllegalArgumentException("n mus be between 1 to 20");
-            }
-            if(n==0||n==1)
-            return 1;
-            long resut=1;
-            for (int i = 2; i <=n; i++) {
-                resut*=i;
-            }
-            return resut;
+            if(n<0 || n>20)
+                throw new IllegalArgumentException("n must between 0..20");
+            
+            if(n==0 || n==1){
+                return 1;
+            }           
+           return n * getFac(n-1);
+            
+            
         }
+ 
+        // minh hoa khai nieu refactoring - toi uu, chinh sua lai code
+        // cho tot hon
+        //va minh hoa khai niem regression test , test hoi quy, test lai nhung gi da
+        // tung test XANH, de check xem code con xanh nhu ngay xua sau khi da sua code
+        
     public static void main(String[] args) {
         Scanner sc=new Scanner(System.in);
         long expected = 120; //ta mong nhan dc 120 neu goi 5
