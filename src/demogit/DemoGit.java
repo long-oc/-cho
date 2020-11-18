@@ -15,7 +15,6 @@ import static demogit.DemoGit.PI;
 public class DemoGit {
 
     /**
-     * @param args the command line arguments
      */
  
         public static final double PI=3.1415;
